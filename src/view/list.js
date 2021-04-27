@@ -41,7 +41,7 @@ function ListView({ source, onDelete, onEdit}, ref) {
                 <div>{item.price + "元/件"}</div>
                 <div>{item.amount + "件"}</div>
               </div>
-              <CenterDiv>{(item.price * item.amount).toFixed(2)}</CenterDiv>
+              <CenterDiv>{(item.price * item.amount).toFixed(2)}元</CenterDiv>
             </List>
             <Button
               type="primary"

@@ -17,8 +17,8 @@ FormDialog.propTypes = {
 };
 
 const placeholder = {
-  name: "名字",
-  batch: "批次",
+  name: "工序",
+  batch: "货号",
   price: "单价",
   amount: "数量",
 };
